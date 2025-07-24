@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1rem;
+  background: radial-gradient(circle, #000010, #000020);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  overflow: hidden;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+select {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+  border: none;
+}
+
+#customCursor {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
